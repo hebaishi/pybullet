@@ -5,6 +5,7 @@ Simple python interface to PushBullet. The following functions are implemented:
 def push_note(title = "Untitled", body = "Sample body", token = ""):
 def push_link(title = "Untitled", body = "Sample: body",
     url = "http://www.google.co.uk", token = ""):
+def push_file(file_path = "", file_name = "", file_desc="", token = ""):
 def get_pushes(modified_after = 0, active = True, token = ""):
 ```
 
